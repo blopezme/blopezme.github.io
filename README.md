@@ -1,0 +1,1 @@
+This repository contains files for CIS300 Project Assignments. This is the first portion of the assignment that includes all the files needed, but only the website.css and index.html files actually have code on them as per instructed. The website is an informative Technology website, specifically, everything about a computer system, how they work, and how you can upgrade them
