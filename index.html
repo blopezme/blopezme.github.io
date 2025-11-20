@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Computer Techy's — Home</title>
+<link rel="stylesheet" href="website.css" />
+</head>
+<body>
+<!--navigation and top row-->
+  <header class="site-header" style="border-bottom:1px solid #e6e6e6;">
+  <div class="header-inner">
+    <div class="branding">
+      <img src="https://unsplash.com/photos/czES9OmWmHU/download?force=true&w=1200" alt="logo" style="width:48px;height:48px;object-fit:cover;border-radius:6px;">
+      <h1 class="site-title">Computer Techy's</h1>
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="components.html">Components</a></li>
+        <li><a href="workings.html">How It Works</a></li>
+        <li><a href="upgrades.html">Upgrades</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+    <div class="header-controls">
+      <input class="search" placeholder="Search..." aria-label="Search" />
+      <button class="cta">Get Help</button>
+    </div>
+  </div>
+</header>
+<!--main content/ body with image-->
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Every wonder what is inside your computer?</h2>
+      <p class="lead">Understand your computer so you can fix it, upgrade it, and make it last.</p>
+    </div>
+    <div class="hero-image">
+      <img src="https://unsplash.com/photos/VrHLHgGETFs/download?force=true&w=1200" alt="Hero image">
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="feature-inner">
+      <img src="https://unsplash.com/photos/KzvvPlAnZF4/download?force=true&w=1200" alt="Feature" style="width:200px;height:150px;object-fit:cover;border-radius:8px;">
+      <div>
+        <h3>Overview</h3>
+        <p>Quick, friendly guides and troubleshooting tips for common PC problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-grid">
+    <article class="content-left">
+      <h3>Components overview</h3>
+      <p>This site explains the major PC components and simple fixes/upgrades anyone can try.</p>
+      <!--table for easier read-->
+      <h4>Quick components table</h4>
+      <table class="components-table" summary="Component roles and typical issues">
+        <thead><tr><th>Component</th><th>Function</th><th>Common issue</th></tr></thead>
+        <tbody>
+          <tr><td>CPU</td><td>Processes instructions</td><td>Overheating</td></tr>
+          <tr><td>RAM</td><td>Short-term memory</td><td>Insufficient memory</td></tr>
+          <tr><td>Storage</td><td>Long-term files</td><td>Slow / full drive</td></tr>
+        </tbody>
+      </table>
+     <!-- Video-->
+      <h4>Demo</h4>
+     
+      <video controls width="480" height="270" style="background:#000;">
+      
+      <p><img src= alt="Demo work in progess" style="width:480px;height:270px;object-fit:cover;border-radius:8px;margin-top:8px;"></p>
+    </article>
+
+    <aside class="content-right">
+      <h4>Need help?</h4>
+      <p><a href="resources.html">Contact / Resources</a></p>
+      <!--form for feedback-->
+<form action="#" method="post" class="contact-form" aria-label="Contact form">
+  <div class="field name">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" required>
+  </div>
+
+  <div class="field email">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+  </div>
+
+  <div class="field topic">
+    <label for="topic">Topic</label>
+    <select id="topic" name="topic">
+      <option value="support">Support</option>
+      <option value="question">Question</option>
+      <option value="feedback">Feedback</option>
+    </select>
+  </div>
+
+  <div class="field spacer"></div>
+
+  <div class="field message" style="grid-column: 1 / -1;">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+  </div>
+
+  <div style="grid-column: 1 / -1; display:flex; justify-content:flex-end;">
+    <button type="submit" class="form-submit">Send</button>
+  </div>
+</form>
+
+    </aside>
+  </section>
+
+  <!-- Components page link and footer-->
+  <section style="max-width:1100px;margin:0 auto;padding:0 20px 60px 20px;">
+    <h3>Explore components in-depth</h3>
+    <p><a href="components.html">Go to Components page →</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <img src="https://unsplash.com/photos/czES9OmWmHU/download?force=true&w=1200" alt="logo small" style="height:40px;">
+      <small> Computer Techy's</small>
+    </div>
+    <div class="footer-links">
+      <a href="home.html">Home</a>
+      <a href="resources.html">Resources</a>
+      <a href="components.html">Components</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
